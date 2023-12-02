@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fudice- No.1 Online Organic Food Source</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="top-header">
+        <div class="logo">Fudice</div>
+        
+        <div class="search-bar">
+            <!-- <input type="text" class="search-input" placeholder="Search...">
+            <div class="search-icon">&#128269;</div> -->
+            <input class="search-input" type="search" placeholder="Search items, collections">
+            <button class="search-icon" type="submit" style="position: relative;bottom: 5PX;"><i class="fa fa-search"></i></button>
+        </div>
+        
+        <div class="icons">
+            <div class="icon"><i class="fa fa-heart-o"></i></div> <!-- Love icon -->
+            <div class="icon"><i class="fa fa-shopping-cart"></i></div> <!-- Cart icon -->
+            <button class="register-button">
+            <div class="register-icon"><i class="fa fa-user-o"></i></div> <!-- Register icon -->
+            Register
+            </button>
+        </div>
+        </div>
+
+        <header>
+            <h1>Create Account</h1>
+        </header>
+        <div class="already-have-account">
+            <p>Already has an account? <span style="text-decoration: underline;color: blue;">Login</span></p>
+        </div>
+
+        <div class="block-text">
+           
+            <p> <i class="fa fa-google" aria-hidden="true"></i>Continue with Google</p>
+        </div>
+
+        <div class="block-text">
+            <p><i class="fa fa-apple" aria-hidden="true"></i>Continue with Gmail</p>
+        </div>
+
+        <div class="block-text">
+            <p><i class="fa fa-facebook-official" aria-hidden="true"></i>Continue with Facebook</p>
+        </div>
+
+        <div class="line">
+            <span class="or">OR</span>
+        </div>
+
+        <form id="registrationForm">
+
+            <div class="first-last">
+            <div class="fl">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="fl">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required>
+            </div>
+            </div>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" oninput="validatePassword()" required>
+
+            <div class="password-requirements">
+                <p>A strong password should contain:</p>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="upper" name="upper" disabled>
+                    <label for="upper">One Upper Letter</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="lower" name="lower" disabled>
+                    <label for="lower">One Lower Letter</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="numeric" name="numeric" disabled>
+                    <label for="numeric">One Numeric</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="symbol" name="symbol" disabled>
+                    <label for="symbol">One Symbol</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="length" name="length" disabled>
+                    <label for="length">Must be up to 8 letters in One</label>
+                </div>
+            </div>
+
+            <button type="submit" class="register-button" style="background-color: green; padding-right: 80PX; text-align: center;">Register</button>
+        </form>
+
+        <div class="billing-details">
+            <div class="payment-method">
+            <p>Billing Details</p>
+        </div>
+            <div class="payment-method">
+                <p>Payment Method</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+
+            document.getElementById('upper').checked = /[A-Z]/.test(password);
+            document.getElementById('lower').checked = /[a-z]/.test(password);
+            document.getElementById('numeric').checked = /\d/.test(password);
+            document.getElementById('symbol').checked = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+            document.getElementById('length').checked = password.length >= 8;
+        }
+    </script>
+
+</body>
+        

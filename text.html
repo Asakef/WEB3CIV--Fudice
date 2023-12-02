@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        } */
+
+        header {
+            color: black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .already-have-account {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .block-text {
+           
+            border: 1px solid #ccc;
+            padding: 2px;
+            margin: 20px;
+            display: block;
+            border-radius: 0;
+        
+        }
+
+        .block-text p> i {
+            padding-left: 10px;
+            padding-right: 290px;
+        }
+
+        .line {
+            border-top: 1px solid #ccc;
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .or {
+            position: absolute;
+            top: -12px;
+            background-color: #fff;
+            padding: 0 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 45%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            
+        }
+
+        /* .first-last {
+            display: flex;
+            
+        } */
+
+        /* .fl {
+            flex: 1;
+    width: 50%;
+        } */
+
+        .password-requirements {
+            margin-top: 10px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+
+        .register-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .billing-details {
+            margin-top: 20px;
+        }
+
+        .payment-method {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <div class="container">
+
+        <header>
+            <h1>Create Account</h1>
+        </header>
+        <div class="already-have-account">
+            <p>Already has an account? <a href="#">Login</a></p>
+        </div>
+
+        <div class="block-text">
+           
+            <p> <i class="fa fa-google" aria-hidden="true"></i>Continue with Google</p>
+        </div>
+
+        <div class="block-text">
+            <p><i class="fa fa-apple" aria-hidden="true"></i>Continue with Gmail</p>
+        </div>
+
+        <div class="block-text">
+            <p><i class="fa fa-facebook-official" aria-hidden="true"></i>Continue with Facebook</p>
+        </div>
+
+        <div class="line">
+            <span class="or">OR</span>
+        </div>
+
+        <form id="registrationForm">
+
+            <div class="first-last">
+            <div class="fl">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="fl">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required>
+            </div>
+            </div>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" oninput="validatePassword()" required>
+
+            <div class="password-requirements">
+                <p>A strong password should contain:</p>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="upper" name="upper" disabled>
+                    <label for="upper">One Upper Letter</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="lower" name="lower" disabled>
+                    <label for="lower">One Lower Letter</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="numeric" name="numeric" disabled>
+                    <label for="numeric">One Numeric</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="symbol" name="symbol" disabled>
+                    <label for="symbol">One Symbol</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="length" name="length" disabled>
+                    <label for="length">Must be up to 8 letters in One</label>
+                </div>
+            </div>
+
+            <button type="submit" class="register-button">Register</button>
+        </form>
+
+        <div class="billing-details">
+            <div class="payment-method">
+            <p>Billing Details</p>
+        </div>
+            <div class="payment-method">
+                <p>Payment Method</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+
+            document.getElementById('upper').checked = /[A-Z]/.test(password);
+            document.getElementById('lower').checked = /[a-z]/.test(password);
+            document.getElementById('numeric').checked = /\d/.test(password);
+            document.getElementById('symbol').checked = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+            document.getElementById('length').checked = password.length >= 8;
+        }
+    </script>
+
+</body>
+</html>

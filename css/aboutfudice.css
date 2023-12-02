@@ -1,0 +1,709 @@
+body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_page{
+background-color:#FFA500;
+width: 100%;
+height: 100%;
+margin-top: 0px;
+}
+
+
+.social_header{
+  display: flex;
+  margin-left: 1000px;
+  gap: 5px;
+  color: white;
+  font-family: Urbanist;
+  }
+
+
+  .footer1-soc2{
+    color: white;
+    font-family: Urbanist;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    padding-top: 0px;
+     }
+
+
+     .footer1-soc3{
+     display: inline-block;
+     padding-top: 0px;
+     color: white;
+     font-family: Urbanist;  
+      
+    }
+
+
+
+    .first_div{
+      position: relative;
+    }
+
+    #About{
+      background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+      font-family: Urbanist;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      width: 800px;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 0px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text ; 
+    }
+
+    .About_Fudice{
+      display: flex;
+    }
+
+    .icon{
+      width: 420px;
+    }
+    .nav-btn{
+      top: 10px;
+      right:49px;
+      position: relative;
+      border: none;
+      border-radius: 8px;
+      background: green;
+    }
+    form.schicon {
+      border: none;
+      padding: 0;
+     }
+     input.schicon {
+      border: 1px solid #555;
+      position: absolute;
+      top: 0;
+      margin-left: 400px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 16px 4px 16px 40px;
+      border-radius: 8px;
+       background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+  .image_icon{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-content: first baseline;
+    gap: 50px;
+    
+  }
+
+ .iicon{
+    
+    background-color:  #557C55;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    color: white;
+    font-family: Urbanist;
+    font-size: 20px;
+    border-style: none;
+    border-color: #557C55;
+    gap: 16px;
+    width: 200px;
+
+ }
+
+ .main_image{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #557C55;
+  border: 10px;
+  border-radius: 5%;
+  
+ }
+ .main_image img{
+  height: 400px;
+  width: 450px;
+  display: flex;
+  margin-right:  25px;
+  border-radius: 50px;
+  border: 10px solid #555;
+ }
+
+ .image_text{
+  background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+  font-family: Urbanist;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 2%;
+  text-transform: none;
+  -webkit-background-clip:text ; 
+}
+
+.JOIN{
+  background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+      font-family: Urbanist;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      width: 800px;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      text-align: center;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text ; 
+}
+
+.pictures{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  }
+
+  .pic_1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 40px;
+  }
+
+  body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+#logo{
+    background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+    font-family: Urbanist;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text ;    
+}
+
+.hero_header{
+    display: flex;
+}
+
+.best_best{
+  background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+  font-family: Urbanist;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 15px;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2%;
+  text-transform: none;
+  -webkit-background-clip:text ; 
+}
+
+
+.noInput{
+    width: 420px;
+  }
+  .nav-btn{
+    top: 10px;
+    right:49px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    background: green;
+  }
+  form.nosubmit {
+      border: none;
+      padding: 0;
+     }
+     
+  input.nosubmit {
+       border: 1px solid #555;
+       margin-left: 100px;
+       margin-top: 20px;
+       padding: 16px 4px 16px 40px;
+       border-radius: 8px;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+   }
+     
+  .hero_icon{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-content: first baseline;
+    gap: 50px;
+    
+  }
+
+ .btnreg{
+    
+    background-color:  #557C55;
+    color: white;
+    font-family: Urbanist;
+    font-size: 15px;
+    border-style: none;
+    border-color: #557C55;
+    gap: 16px;
+    width: 200px;
+
+ }
+
+
+ .nav_select_food{
+  margin-left: 300px;
+  margin-top: 20px;
+  }
+
+
+  .hero_image{
+   margin-top: 20px;  
+   margin-left: 10px;
+   align-items: center;
+   padding-right: 50px;
+   top: 204px;
+   
+  }
+
+  .food_1{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  }
+
+  .food_2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+
+
+   .food_3{
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: 20px;
+      }
+
+      #food_items {
+       color: black;
+      font-size: 15px;
+      font-weight: 400;
+      width: 150px;
+      height: 45px;
+    align-content: center;
+    box-shadow: #FFA500;
+    border: 1px;
+    background-color: #FFA500;
+    margin-inline: 7px;
+   
+  }
+
+  #carb_h{
+    font-family: Urbanist;
+    font-size: 35px;
+    font-weight: 500;
+    line-height:20px ;
+    color: #557C55;
+    width: 240px;
+    margin-top: 10px;
+    
+  } 
+
+  #carb_h1{
+    font-family: Urbanist;
+    font-size: 35px;
+    font-weight: 500;
+    line-height:20px ;
+    color: #557C55;
+    width: 240px;
+    margin-top: 10px;
+    
+  } 
+
+
+  #carb_h2{
+    font-family: Urbanist;
+    font-size: 35px;
+    font-weight: 500;
+    line-height:20px ;
+    color: #557C55;
+    width: 240px;
+    margin-top: 10px;
+    
+  } 
+
+  #carb_h3{
+    font-family: Urbanist;
+    font-size: 35px;
+    font-weight: 500;
+    line-height:20px ;
+    color: #557C55;
+    width: 240px;
+    margin-top: 10px;
+    
+  } 
+
+
+  .foreign1 p{
+    text-align: center;     
+  }
+
+
+  .foreign1  p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    font-family:Urbanist;
+}
+
+.foreign2 p{
+  text-align: center;     
+}
+
+
+
+.abt_fudice{
+
+  font-size: 15px;
+  text-align: justify;
+  font-family: Urbanist;
+  font-weight: 400;
+  line-height: 150%;
+  color: black;
+  gap: 10px;
+ padding-bottom:50px ;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_page{
+background-color:#FFA500;
+width: 100%;
+height: 100%;
+margin-top: 0px;
+}
+
+
+.social_header{
+  display: flex;
+  margin-left: 1000px;
+  gap: 5px;
+  color: white;
+  font-family: Urbanist;
+  }
+
+
+  .footer1-soc2{
+    color: white;
+    font-family: Urbanist;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    padding-top: 0px;
+     }
+
+
+     .footer1-soc3{
+     display: inline-block;
+     padding-top: 0px;
+     color: white;
+     font-family: Urbanist;  
+      
+    }
+
+
+
+    .first_div{
+      position: relative;
+    }
+
+    #About{
+      background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+      font-family: Urbanist;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      width: 800px;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 0px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text ; 
+    }
+
+    .About_Fudice{
+      display: flex;
+    }
+
+    .icon{
+      width: 420px;
+    }
+    .nav-btn{
+      top: 10px;
+      right:49px;
+      position: relative;
+      border: none;
+      border-radius: 8px;
+      background: green;
+    }
+    form.schicon {
+      border: none;
+      padding: 0;
+     }
+     input.schicon {
+      border: 1px solid #555;
+      position: absolute;
+      top: 0;
+      margin-left: 400px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 16px 4px 16px 40px;
+      border-radius: 8px;
+       background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+  .image_icon{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-content: first baseline;
+    gap: 50px;
+    
+  }
+
+ .iicon{
+    
+    background-color:  #557C55;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    color: white;
+    font-family: Urbanist;
+    font-size: 20px;
+    border-style: none;
+    border-color: #557C55;
+    gap: 16px;
+    width: 200px;
+
+ }
+
+ .main_image{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #557C55;
+  border: 10px;
+  border-radius: 5%;
+  
+ }
+ .main_image img{
+  height: 400px;
+  width: 450px;
+  display: flex;
+  margin-right:  25px;
+  border-radius: 50px;
+  border: 10px solid #555;
+ }
+
+ .image_text{
+  background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+  font-family: Urbanist;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 30px;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 2%;
+  text-transform: none;
+  -webkit-background-clip:text ; 
+}
+
+.JOIN{
+  background: linear-gradient(180deg, #09A158 14.77%, rgba(255, 168, 0, 0.76) 100%);
+      font-family: Urbanist;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      width: 800px;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      text-align: center;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip:text ; 
+}
+
+.pictures{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  }
+
+  .pic_1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 40px;
+  }
+
+
+
+
+  
+footer {
+    /*background-color: rgb(207, 243, 255); */
+    background-color: #FFA500;
+    color: black;
+    padding: 10px 100px;
+  }
+  
+  .footer-section {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+  }
+  
+  
+  
+  .top-section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .middle-section {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .middle-section a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .middle-section a:nth-child(1) {
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .bottom-section {
+    text-align: left;
+    font-size: small;
+  }
+  
+  .cont_head h1{
+  font-size: 32px;
+  
+  }
+  
+  .cont_head p{
+    text-align: justify;
+  
+    
+    }
+  
