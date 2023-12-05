@@ -40,6 +40,8 @@ FUDICE is an e-commerce  Agroconnect web based platform, developed to address th
   git clone,
   cd into project folder.
 
+  https://asakef.github.io/WEB3CIV-Fudice/
+
   ## Want to contribute to FUDICE Platform?
 - Pull requests are the best way to propose changes to the codebase. Would you like to add/remove anything to make FUDICE better? Follow these steps.
 - Fork the repository and make a branch off of main.
@@ -53,3 +55,4 @@ FUDICE is an e-commerce  Agroconnect web based platform, developed to address th
 - Oluwafunmike Akinsanmi - Web Developer
 - Teghware Eseoghene- Web Developer
 - Phoebe Chindima - Product Designer
+ https://asakef.github.io/WEB3CIV-Fudice/
